@@ -1,18 +1,26 @@
 {
-    "name": "app",
-    "version": "0.0.1",
-    "description": "",
-    "author": "",
-    "main": "index.js",
-    "repository": {
-      "type": "",
-      "url": ""
-    },
-    "keywords": [
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
-  }
-  
+  "name": "pwa-test",
+  "version": "0.0.1",
+  "description": "PWA Test",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/pwatest.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "pwa",
+    "javascript",
+    "adh"
+  ],
+  "license": "MIT"
+}
