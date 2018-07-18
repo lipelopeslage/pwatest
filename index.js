@@ -15,7 +15,7 @@ http.createServer(function (request, response) {
         if (error) {
             if(error.code == 'ENOENT'){
                 fs.readFile('./404.html', function(error, content) {
-                    response.writeHead(200, { 'Content-Type': 'text/html' });
+                    response.writeHead(200, { 'Content-Type': 'application/javascript' });
                     response.end(content, 'utf-8');
                 });
             }
@@ -26,7 +26,7 @@ http.createServer(function (request, response) {
             }
         }
         else {
-            response.writeHead(200, { 'Content-Type': 'text/html' });
+            response.writeHead(200, { 'Content-Type': 'application/javascript' });
             response.end(content, 'utf-8');
         }
     });
