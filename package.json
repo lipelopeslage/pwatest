@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "",
     "author": "",
-    "main": "app/index.js",
+    "main": "index.js",
     "repository": {
       "type": "",
       "url": ""
