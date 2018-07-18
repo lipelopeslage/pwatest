@@ -31,5 +31,5 @@ http.createServer(function (request, response) {
         }
     });
 
-}).listen(8125);
+}).listen(process.env.PORT || 3000);
 console.log('rendering...')
